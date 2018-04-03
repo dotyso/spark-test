@@ -19,7 +19,7 @@ https://www.barik.net/archive/2015/01/19/172716/
 2） 增加环境变量
 系统Path变量中：D:\hadoop-2.6.0\bin；同时新建HADOOP_HOME变量，变量值为：D:\hadoop-2.6.0
 
-第四步：配置开发工具
+第五步：配置开发工具
 IDEA:
 1 安装scala插件
 2 新建Scala项目，参考项目先Github
@@ -29,7 +29,7 @@ IDEA:
               3）运行Run/Debug时，Edit Configuration设置
               4）生成Jar包时配置，之后使用Build / Build Aritfacts生成Jar包
 
-第五步：本地模式运行
+第六步：本地模式运行
 D:\Programs\spark-2.3.0-bin-hadoop2.6\bin\spark-submit --master local --class com.divino.SimpleApp ScaleSparkTest2.jar
 
 
