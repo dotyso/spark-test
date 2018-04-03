@@ -24,13 +24,10 @@
 第四步：配置开发工具
 IDEA:
        1 安装scala插件
-
        2 新建Scala项目，参考项目先Github
        3 配置项目
               1)Scale版本
-              2) 引入外部库
-                     此图为用Maven的情况（不需要导入）
-                     非Maven导入D:\Programs\spark-2.3.0-bin-hadoop2.6\jars 全部Jar导
+              2) 引入外部库，使用用Maven或非Maven导入D:\Programs\spark-2.3.0-bin-hadoop2.6\jars 全部Jar导
               3）运行Run/Debug时，Edit Configuration设置
               4）生成Jar包时配置，之后使用Build / Build Aritfacts生成Jar包
 
